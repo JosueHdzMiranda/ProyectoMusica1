@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".decima">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="@string/titulo12"
+            android:textAlignment="center"
+            android:textColor="#FBC02D"
+            android:textSize="42sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text='El 11 de julio de 2018, la banda lanzaría dos nuevos sencillos, «Jumpsuit» y «Nico and the Niners». En las siguientes semanas, se lanzaría otros dos nuevos sencillos, «Levitate» y «My Blood», así como también los respectivos videos de cada uno de los mencionados anteriormente, y el anuncio de su tercer álbum de estudio, Trench, programado para ser lanzado el 5 de octubre de 2018 junto con una nueva gira mundial, llamada "The Bandito Tour", que comenzó el 16 de octubre. En 2019, la banda anunciaría un sencillo más de su álbum Trench; «Chlorine», el cual llegaría al puesto número 6 en los Billboard Top Rock Songs Chart, número 1 en los Billboard Top Alternative Songs Chart , y alcanzaría los 100+ millones de vistas en el vídeo musical subido a Youtube'
+            android:textAlignment="center"
+            android:textColor="#030000"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="264dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="360dp"
+            android:contentDescription="@string/imagen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.401"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/trech" />
+
+        <Button
+        android:id="@+id/btn34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Menu"
+        android:text="@string/btn34"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
